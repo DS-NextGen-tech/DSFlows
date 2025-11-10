@@ -1,0 +1,34 @@
+{
+  "metadata" : {
+    "name" : "sf_tpcds_ETL.DataStage job",
+    "asset_id" : "45d38fe7-d361-44b0-a61e-2ed6d34951c4",
+    "owner_id" : "1000331020",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref" : "788a8b59-5f3b-4b0d-82fd-947b211809d4",
+      "schedule_id" : "",
+      "project_name" : "Snowflake Data Gov and Lineage",
+      "configuration" : {
+        "env_id" : "c17cd9fe-a492-4843-ada1-3b52e35c9978",
+        "env_type" : "datastage",
+        "flow_limits" : {
+          "warn_limit" : 100
+        },
+        "env_variables" : [ ],
+        "runPriorityQueue" : "Medium"
+      },
+      "last_run_time" : "deprecated field",
+      "asset_ref_type" : "data_intg_flow",
+      "parameter_sets" : [ ],
+      "last_run_status" : "deprecated field",
+      "last_run_initiator" : "deprecated field",
+      "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
+      "flow_name" : "sf_tpcds_ETL"
+    }
+  }
+}
