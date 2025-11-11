@@ -1791,9 +1791,9 @@
                 "temporary" : false,
                 "label_single_line" : true,
                 "label_align" : "center",
-                "tooltip" : "Link_11",
+                "tooltip" : "lnk_customer",
                 "x_pos" : 0,
-                "label" : "Link_11",
+                "label" : "lnk_customer",
                 "label_allow_return_key" : "save",
                 "width" : 141,
                 "label_editable" : true,
@@ -1805,7 +1805,7 @@
               "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
             }
           },
-          "link_name" : "Link_11",
+          "link_name" : "lnk_customer",
           "port_id_ref" : "f9eeedf3-1c33-4b82-8a3f-835bae2570a4"
         } ],
         "id" : "49c06257-c273-46a9-8c0c-f3e4d7de83f8",
