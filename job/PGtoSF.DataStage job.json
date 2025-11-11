@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "PGtoSF.DataStage job",
+    "asset_id" : "ad8886f1-a204-4c5e-9d5f-40e9af652dc0",
+    "owner_id" : "1000331019",
+    "version" : 0
+  },
+  "entity" : {
+    "job" : {
+      "asset_ref" : "b26b278f-5770-49ab-bbf1-cf93e8a6e170",
+      "schedule_id" : "",
+      "project_name" : "Snowflake Data Gov and Lineage",
+      "configuration" : {
+        "env_type" : "data_intg_flow",
+        "flow_limits" : {
+          "warn_limit" : 100
+        },
+        "env_variables" : [ ],
+        "runPriorityQueue" : "Medium"
+      },
+      "last_run_time" : "deprecated field",
+      "asset_ref_type" : "data_intg_flow",
+      "last_run_status" : "deprecated field",
+      "last_run_initiator" : "deprecated field",
+      "schedule_creator_id" : "",
+      "enable_notifications" : true,
+      "future_scheduled_runs" : [ ],
+      "last_run_status_timestamp" : 0,
+      "flow_name" : "PGtoSF"
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "project" : "Snowflake Data Gov and Lineage",
   "projectId" : "7eb6d2b8-8256-41d3-9fdf-78b8ba5a9d93",
   "created_by" : "amirza@ibm.com",
-  "created_at" : "2025-11-10T16:50:11.285072168Z",
+  "created_at" : "2025-11-11T04:54:50.772809600Z",
   "environment" : "cp4d",
   "services_info" : [ {
     "name" : "ds-canvas",
@@ -33,6 +33,10 @@
     "version" : "521.0.7"
   } ],
   "assets" : [ {
+    "name" : "PGtoSF.DataStage job.",
+    "type" : "job",
+    "location" : ""
+  }, {
     "name" : "sf_tpcds_ELT.DataStage job.",
     "type" : "job",
     "location" : ""
@@ -44,6 +48,14 @@
     "name" : "sf_tpcds_ETL.",
     "type" : "data_intg_flow",
     "location" : ""
+  }, {
+    "name" : "PGtoSF.",
+    "type" : "data_intg_flow",
+    "location" : ""
+  }, {
+    "name" : "PGtoSF.",
+    "type" : "px_executables",
+    "location" : "PGtoSF"
   }, {
     "name" : "sf_tpcds_ETL.",
     "type" : "px_executables",
